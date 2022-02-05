@@ -1,0 +1,6 @@
+# Routes
+GET     /games                controllers.GameController.findAll()
+GET     /games/:id            controllers.GameController.findOne(id: String)
+POST    /games                controllers.GameController.create()
+PUT     /games/:id            controllers.GameController.update(id: String)
+DELETE  /games/:id            controllers.GameController.delete(id: String)
