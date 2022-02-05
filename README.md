@@ -1,6 +1,8 @@
 # Game CRUD 
 
-#### A simple Game CRUD example utilizing ReactiveMongo on Play Framework. It demonstrates ;
+### A simple CRUD example utilizing ReactiveMongo on Play Framework. 
+
+#### It demonstrates ;
 
 
 
