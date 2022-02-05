@@ -12,7 +12,7 @@
 
 - CRUD using different data type
 
-#### This app use the following ;
+#### And use the following ;
 - Play Framework 2.8.0
 - Scala 2.13.3
 - Reactive Scala Driver for MongoDB 0.20.13-play28
@@ -20,7 +20,7 @@
 
 
 
-#### To use the app ;
+#### To use this ;
 
 - Operate the Docker
 `docker-compose up`
