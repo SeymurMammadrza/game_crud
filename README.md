@@ -1,6 +1,6 @@
 #Game CRUD 
 
-####A simple Game CRUD example utilizing ReactiveMongo on Play Framework. It demonstrates ;
+#### A simple Game CRUD example utilizing ReactiveMongo on Play Framework. It demonstrates ;
 
 
 
@@ -10,7 +10,7 @@
 
 - CRUD using different data type
 
-####This app use the following ;
+#### This app use the following ;
 - Play Framework 2.8.0
 - Scala 2.13.3
 - Reactive Scala Driver for MongoDB 0.20.13-play28
@@ -18,28 +18,28 @@
 
 
 
-####To use the app ;
+#### To use the app ;
 
 - Operate the Docker
 `docker-compose up`
 - Run the project
 `sbt run`
 
-####Routes:
+#### Routes:
 - GET     `http://localhost:9000/games`                
 - GET     `http://localhost:9000/games/:id`
 - POST    `http://localhost:9000/games`              
 - PUT     `http://localhost:9000/games/:id`
 - DELETE  `http://localhost:9000/games/:id`
 
-####POST Request Body Example:
+#### POST Request Body Example:
 
 `curl --verbose --header "Content-Type: application/json" \
 --request POST \
 --data '{ "name":"Witcher 3", "genre":"RPG" }' \
 http://localhost:9000/games`
 
-####POST Response Example:
+#### POST Response Example:
 `
 < HTTP/1.1 201 Created
 < Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
@@ -55,10 +55,10 @@ http://localhost:9000/games`
 "genre": "RPG"
 }*
 `
-####GET Query Example:
+#### GET Query Example:
 `curl --verbose --request GET http://localhost:9000/games`
 
-####GET Query Response Example:
+#### GET Query Response Example:
 `< HTTP/1.1 200 OK
 < Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 < X-Frame-Options: DENY
